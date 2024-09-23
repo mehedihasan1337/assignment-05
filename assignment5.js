@@ -1,5 +1,7 @@
 
-document.getElementById('button-home').addEventListener('click', function(event){
-    event.preventDefault();
-    window.location = '/home.html'
-})
+function homeButton(){
+    document.getElementById('button-home')
+        window.location = '/home.html'
+    
+}
+
