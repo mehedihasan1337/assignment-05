@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home page</title>
+
+    <!-- daisyui -->
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body>
+
+    <div class="navbar bg-[#F9F7F3] lg:px-40 sm:px-14  ">
+        <div class="navbar-start">
+
+
+            <button class="bg-[#B4F461] py-2 px-7 font-semibold lg:text-xl sm:text-lg  rounded-md">Home</button>
+
+
+
+        </div>
+        <div class="navbar-center gap-2">
+            <img src="assets/logo.png" alt="">
+            <a class="lg:text-xl sm:text-lg  font-semibold">Donate Bangladesh</a>
+        </div>
+        <div class="navbar-end">
+
+            <img src="assets/coin.png" alt="">
+            <a class="lg:text-xl sm:text-lg   text-[#11111171]  font-semibold">5500 BDT</a>
+
+        </div>
+    </div>
+
+    <!-- part 2 -->
+    <div class="lg:px-40 sm:px-10 mt-14">
+        <h1 class="text-3xl font-bold">Important FAQ ?</h1>
+
+        <div class="collapse collapse-arrow border mt-8">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">What is the Document Object Model (DOM)? </div>
+            <div class="collapse-content">
+                <p>The Document Object Model (DOM) is a programming interface for web documents. It represents the
+                    structure of a webpage as a tree of objects, making it easier for developers to manipulate HTML
+                    documents. The DOM allows scripts, like JavaScript, to dynamically access, modify, and interact
+                    with the content, structure, and style of a document while it's loaded in a browser.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow border">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you select an element from the DOM?</div>
+            <div class="collapse-content">
+                <p>To select elements from the DOM, JavaScript provides various methods that allow you to access and
+                    manipulate elements within an HTML document. Here are the most common ways to select DOM elements:
+                <ul>
+                    <li>1. getElementById()</li>
+                    <li>2. getElementsByClassName()</li>
+                    <li>3. getElementsByTagName()</li>
+                    <li>4. querySelector()</li>
+                    <li>5. querySelectorAll()</li>
+                    <li>6. getElementsByName()</li>
+                </ul>
+                </p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow border">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">What is event delegation in the context of the DOM, and why
+                is it useful?</div>
+            <div class="collapse-content">
+                <p>
+                    Event delegation is a technique in the DOM where a single event listener is added to a parent
+                    element rather than adding event listeners to individual child elements. This listener can then
+                    respond to events triggered by its child elements due to event bubbling (or event propagation). It
+                    allows the parent element to "delegate" the handling of events that occur on its descendants, even
+                    if those descendants are added dynamically.</p>
+            </div>
+        </div>
+        <div class="collapse collapse-arrow border">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do you manipulate an element's attributes and styles
+                using the DOM?</div>
+            <div class="collapse-content">
+                <p>
+                    Manipulating an element's attributes and styles using the DOM is a key aspect of dynamic web
+                    development. You can change attributes like id, src, href, or class, and modify the inline CSS
+                    styles of an element using JavaScript. Here's how you can manipulate both attributes and styles of
+                    DOM elements:</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
