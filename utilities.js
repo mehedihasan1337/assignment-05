@@ -5,6 +5,6 @@ function homeButton() {
 }
 function indexButton() {
     document.getElementById('index-button')
-    window.location = 'index.html'
+    window.location = 'https://mehedihasan1337.github.io/assignment-05/'
 
 }
