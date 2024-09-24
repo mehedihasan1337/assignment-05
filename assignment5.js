@@ -1,14 +1,5 @@
 
-function homeButton() {
-    document.getElementById('button-home')
-    window.location = '/home.html'
 
-}
-function indexButton() {
-    document.getElementById('index-button')
-    window.location = '/index.html'
-
-}
 
     const donateBtn1 = document.getElementById("donate-btn1");
     donateBtn1.addEventListener("click", function () {
