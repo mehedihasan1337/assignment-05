@@ -16,21 +16,20 @@ function indexButton() {
     
     const donateAmount1Element = document.getElementById("donate-amount1");
     donateAmount1Element.innerText = donateInput1;
+    //
+    if(donateInput1 >0 ){
+      const mainBalance = document.getElementById("main-balance").innerText;
+      const balanceNumber = parseFloat(mainBalance);
 
 
+      const newBalance = balanceNumber - donateInput1 
+       document.getElementById("main-balance").innerText = newBalance;
+        console.log(newBalance)
+      
 
+    }
+    else{
+        alert('failed to add money.')
+    }
 }) 
-    const donateBtn2 = document.getElementById("donate-btn2");
-    donateBtn2.addEventListener("click", function () {
-    const donateInput2 = parseFloat(document.getElementById('donate-input2').value);
-    console.log(donateInput2)
-
-
-}) 
-    const donateBtn3 = document.getElementById("donate-btn3");
-    donateBtn3.addEventListener("click", function () {
-    const donateInput3 = parseFloat(document.getElementById('donate-input3').value);
-    console.log(donateInput3)
-
-
-}) 
+ 
