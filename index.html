@@ -30,12 +30,12 @@
     <div class="bg-white">
         <br>
         <div class="text-center mb-8">
-            <button class="bg-[#B4F461] py-4 px-7 font-semibold text-xl rounded-xl">Donation</button>
-            <button class="border text-[#11111171] py-4 px-7 font-semibold text-xl rounded-xl">History</button>
+            <button id="donation-tab" class="border bg-[#B4F461] text-black py-4 px-7 font-semibold text-xl rounded-xl">Donation</button>
+            <button id="history-tab" class="border text-[#11111171] py-4 px-7 font-semibold text-xl rounded-xl">History</button>
         </div>
 
         <!-- First Donation Card -->
-        <div class="lg:px-40 sm:px-10">
+        <div id="donation-hidden" class="lg:px-40 sm:px-10">
             <div class="flex flex-col lg:flex-row sm:flex-col gap-7 border p-8 rounded-2xl">
                 <img src="assets/noakhali.png" alt="">
                 <div>
@@ -103,6 +103,11 @@
 
         </div>
         <br>
+        <!-- history list -->
+         <div id="history-list" class=" hidden p-5 mx-40 gap-8 rounded-2xl">
+          
+
+         </div>
     </div>
 
     <footer class="p-10"></footer>
