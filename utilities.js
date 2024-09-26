@@ -37,21 +37,14 @@ document.getElementById('donate-a1').addEventListener('click', function (event) 
      if (donatInput1 < 0) {
 
      }
+
      else {
         alert('successfully')
         // history list
     
     const hedden1 = document.getElementById("history-list")
     hedden1.classList.remove("hidden")
-    const historyItem = document.createElement("div");
-    historyItem.className = "bg-black"
-    historyItem.innerHTML = `
-    <p>$${donatInput1.toFixed(2)}</p>
-     <p>${new Date().toLocaleDateString()}</p>
-    `
-    const historyContainer = document.getElementById("history-list");
-    historyContainer.insertBefore(historyItem, historyContainer. firstChild)
- 
+
      }
 
 
@@ -104,14 +97,7 @@ document.getElementById('donate-a2').addEventListener('click', function (event) 
     
     const hedden2 = document.getElementById("history-list")
     hedden2.classList.remove("hidden")
-    const historyItem = document.createElement("div");
-    historyItem.className = "bg-black"
-    historyItem.innerHTML = `
-    <p>$${donatInput1.toFixed(2)}</p>
-     <p>${new Date().toLocaleDateString()}</p>
-    `
-    const historyContainer = document.getElementById("history-list");
-    historyContainer.insertBefore(historyItem, historyContainer. firstChild)
+
  
      }
 
@@ -164,14 +150,7 @@ document.getElementById('donate-a3').addEventListener('click', function (event) 
     
     const hedden3 = document.getElementById("history-list")
     hedden3.classList.remove("hidden")
-    const historyItem = document.createElement("div");
-    historyItem.className = "bg-black"
-    historyItem.innerHTML = `
-    <p>$${donatInput1.toFixed(2)}</p>
-     <p>${new Date().toLocaleDateString()}</p>
-    `
-    const historyContainer = document.getElementById("history-list");
-    historyContainer.insertBefore(historyItem, historyContainer. firstChild)
+    
  
      }
 
