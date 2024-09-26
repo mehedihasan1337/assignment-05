@@ -42,9 +42,6 @@ document.getElementById('donate-a1').addEventListener('click', function (event) 
         alert('successfully')
         // history list
     
-    const hedden1 = document.getElementById("history-list")
-    hedden1.classList.remove("hidden")
-
      }
 
 
@@ -95,8 +92,7 @@ document.getElementById('donate-a2').addEventListener('click', function (event) 
         alert('successfully')
         // history list
     
-    const hedden2 = document.getElementById("history-list")
-    hedden2.classList.remove("hidden")
+    
 
  
      }
@@ -148,8 +144,7 @@ document.getElementById('donate-a3').addEventListener('click', function (event) 
         alert('successfully')
         // history list
     
-    const hedden3 = document.getElementById("history-list")
-    hedden3.classList.remove("hidden")
+    
     
  
      }
